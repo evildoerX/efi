@@ -1,0 +1,348 @@
+0:100  0:100  MemLog inited, TSC freq: 3990751374
+0:100  0:000  
+0:100  0:000  Now is 5.4.2017,  16:17:39 (GMT)
+0:100  0:000  Starting Clover revision: 4049 on American Megatrends EFI
+0:100  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED | -D NO_GRUB_DRIVERS_EMBEDDED -D USE_LOW_EBDA -a X64 -b RELEASE -t XCODE5 -n 5 | OS: 10.12.4 | XCODE: 8.2.1]
+0:100  0:000  SelfDevicePath=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,C6358DEC-D826-4E7C-9991-589CF92CF794,0x28,0x64000) @DC709B18
+0:100  0:000  SelfDirPath = \EFI\BOOT
+0:100  0:000  === [ Get Smbios ] ========================================
+0:100  0:000  Type 16 Index = 0
+0:100  0:000  Total Memory Slots Count = 4
+0:100  0:000  Type 17 Index = 0
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Type 17 Index = 1
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 1 ChannelA-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = 0215
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNumber = CMSX16GX3M2B2133C1
+0:100  0:000  Type 17 Index = 2
+0:100  0:000  Ignoring insane frequency value 0MHz
+0:100  0:000  SmbiosTable.Type17->Speed = 0MHz
+0:100  0:000  SmbiosTable.Type17->Size = 0MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 2 ChannelB-DIMM0
+0:100  0:000  SmbiosTable.Type17->Vendor = <null string>
+0:100  0:000  SmbiosTable.Type17->SerialNumber = <null string>
+0:100  0:000  SmbiosTable.Type17->PartNumber = <null string>
+0:100  0:000  Type 17 Index = 3
+0:100  0:000  SmbiosTable.Type17->Speed = 2133MHz
+0:100  0:000  SmbiosTable.Type17->Size = 8192MB
+0:100  0:000  SmbiosTable.Type17->Bank/Device = BANK 3 ChannelB-DIMM1
+0:100  0:000  SmbiosTable.Type17->Vendor = 0215
+0:100  0:000  SmbiosTable.Type17->SerialNumber = 00000000
+0:100  0:000  SmbiosTable.Type17->PartNumber = CMSX16GX3M2B2133C1
+0:100  0:000  Boot status=0
+0:100  0:000  Running on: 'P750ZM ' with board 'P750ZM '
+0:100  0:000  === [ GetCPUProperties ] ==================================
+0:100  0:000  CPU Vendor = 756E6547 Model=306C3
+0:100  0:000   The CPU supported SSE4.1
+0:100  0:000  The CPU supported turbo
+0:100  0:000  BrandString = Intel(R) Core(TM) i7-4790K CPU @ 4.00GHz
+0:100  0:000  MSR 0xE2 before patch 1E008405
+0:100  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:100  0:000  MSR 0xCE              00080838_F3012800
+0:100  0:000  MSR 0x1A0             00850089
+0:100  0:000  corrected FLEX_RATIO = E0000
+0:100  0:000  MSR 0x1B0             00000000
+0:100  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:100  0:000  MaxDiv/MinDiv: 40.0/8
+0:100  0:000  Turbo: 42/43/44/44
+0:100  0:000  Features: 0xBFEBFBFF
+0:100  0:000  Threads: 8
+0:100  0:000  Cores: 4
+0:100  0:000  FSB: 25 MHz
+0:100  0:000  CPU: 4000 MHz
+0:100  0:000  TSC: 4000 MHz
+0:100  0:000  PIS: 100 MHz
+0:100  0:000  === [ GetDevices ] ========================================
+0:100  0:000  PCI (00|00:00.00) : 8086 0C00 class=060000
+0:100  0:000  PCI (00|00:01.00) : 8086 0C01 class=060400
+0:100  0:000  PCI (00|01:00.00) : 10DE 13D8 class=030000
+0:100  0:000   - GFX: Model=Clevo GeForce GTX 970M family 124 (Nvidia)
+0:100  0:000  PCI (00|01:00.01) : 10DE 0FBB class=040300
+0:100  0:000   - HDMI Audio: 
+0:100  0:000  PCI (00|00:14.00) : 8086 8CB1 class=0C0330
+0:100  0:000  PCI (00|00:16.00) : 8086 8CBA class=078000
+0:100  0:000  PCI (00|00:16.01) : FFFF FFFF class=FFFFFF
+0:100  0:000  PCI (00|00:1A.00) : 8086 8CAD class=0C0320
+0:100  0:000  PCI (00|00:1B.00) : 8086 8CA0 class=040300
+0:100  0:000  PCI (00|00:1C.00) : 8086 8C90 class=060400
+0:100  0:000  PCI (00|00:1C.02) : 8086 8C94 class=060400
+0:100  0:000  PCI (00|03:00.00) : 10EC 5250 class=080501
+0:100  0:000  PCI (00|00:1C.03) : 8086 8C96 class=060400
+0:100  0:000  PCI (00|04:00.00) : 1B21 1182 class=060400
+0:100  0:000  PCI (00|05:03.00) : 1B21 1182 class=060400
+0:100  0:000  PCI (00|06:00.00) : 8086 095A class=028000
+0:100  0:000   - WIFI: Vendor=Intel
+0:100  0:000  PCI (00|05:07.00) : 1B21 1182 class=060400
+0:100  0:000  PCI (00|07:00.00) : 10EC 8168 class=020000
+0:100  0:000   - LAN: 0 Vendor=Realtek
+0:100  0:000  PCI (00|00:1D.00) : 8086 8CA6 class=0C0320
+0:100  0:000  PCI (00|00:1F.00) : 8086 8CC4 class=060100
+0:100  0:000  PCI (00|00:1F.02) : 8086 8C82 class=010601
+0:100  0:000  PCI (00|00:1F.03) : 8086 8CA2 class=0C0500
+0:100  0:000  === [ GetDefaultSettings ] ================================
+0:100  0:000  Clover load options size = 4 bytes
+0:102  0:002  EFI\CLOVER\config.plist loaded: Success
+0:102  0:000  === [ GetListOfThemes ] ===================================
+0:106  0:003  - [00]: black_green
+0:111  0:005  - [01]: christmas - bad theme because theme.plist can't be load
+0:112  0:001  - [01]: EMBEDDED
+0:113  0:001  - [01]: NEWYEAR
+0:117  0:003  - [02]: RANDOM
+0:118  0:001  === [ Found config plists ] ===============================
+0:118  0:000  - config.plist
+0:118  0:000  === [ GetEarlyUserSettings ] ==============================
+0:118  0:000  timeout set to 5
+0:118  0:000  Custom boot CUSTOM_BOOT_DISABLED (0x0)
+0:118  0:000  Default theme: black_green
+0:118  0:000  Hiding entries with string BOOTX64.EFI
+0:118  0:000  === [ LoadDrivers ] =======================================
+0:122  0:004  Loading AppleKeyAggregator-64.efi  status=Success
+0:123  0:000  Loading AppleUITheme-64.efi  status=Success
+0:124  0:000  Loading DataHubDxe-64.efi  status=Success
+0:127  0:003  Loading FirmwareVolume-64.efi  status=Success
+0:128  0:000  Loading Fat-64.efi  status=Success
+0:128  0:000   - driver needs connecting
+0:128  0:000  Loading FSInject-64.efi  status=Success
+0:129  0:000  Loading OsxFatBinaryDrv-64.efi  status=Success
+0:130  0:000  Loading OsxAptioFix2Drv-64.efi  status=Success
+0:130  0:000  Loading SMCHelper-64.efi  status=Success
+0:131  0:000  Loading PartitionDxe-64.efi  status=Success
+0:131  0:000   - driver needs connecting
+0:131  0:000  Loading VBoxHfs-64.efi  status=Success
+0:132  0:000   - driver needs connecting
+0:132  0:000  Loading AppleImageCodec-64.efi  status=Success
+0:133  0:001  3 drivers needs connecting ...
+0:133  0:000  PlatformDriverOverrideProtocol not found. Installing ... Success
+0:133  0:000  Partition driver loaded: 
+0:133  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:231  0:098  === [ InitScreen ] ========================================
+0:231  0:000  SetMaxResolution: found best mode 0: 2880x1620
+0:231  0:000   - already set
+0:231  0:000  Console modes reported: 4, available modes:
+0:231  0:000   - [01]: 80x25
+0:231  0:000   - [02]: 80x50
+0:231  0:000   - [03]: 100x31 (current mode)
+0:231  0:000   - [04]: 180x42
+0:231  0:000  SetScreenResolution: 2880x1620 - already set
+0:231  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,C6358DEC-D826-4E7C-9991-589CF92CF794,0x28,0x64000)
+0:232  0:000  Using embedded font: Success
+0:232  0:000  === [ GetMacAddress ] =====================================
+0:232  0:000  MAC address of LAN #0= 80:FA:5B:11:0A:ED:
+0:232  0:000  === [ ScanSPD ] ===========================================
+0:232  0:000  SMBus device : 8086 8CA2 class=0C0500 status=Success
+0:232  0:000  SMBus CmdReg: 0x3
+0:232  0:000  Scanning SMBus [8086:8CA2], mmio: 0xF7414004, ioport: 0xF000, hostc: 0x11
+0:232  0:000  Slots to scan [8]...
+0:233  0:000  SPD[1]: Type 11 @0x51
+0:252  0:018  DDR speed 2000MHz
+0:252  0:000  Slot: 1 Type 24 8192MB 2000MHz Vendor=Corsair PartNo=CMSX16GX3M2B2133C1 SerialNo=0000000000000000
+0:252  0:000  SPD[3]: Type 11 @0x53
+0:271  0:018  DDR speed 2000MHz
+0:271  0:000  Slot: 3 Type 24 8192MB 2000MHz Vendor=Corsair PartNo=CMSX16GX3M2B2133C1 SerialNo=0000000000000000
+0:271  0:000  === [ GetAcpiTablesList ] =================================
+0:275  0:003  Get Acpi Tables List from RSDT:
+0:275  0:000   - [00]: FACP  A M I len=132
+0:275  0:000   - [01]: APIC  A M I len=146
+0:275  0:000   - [02]: FPDT  A M I len=68
+0:275  0:000   - [03]: FIDT  A M I len=156
+0:275  0:000   - [04]: ASF!   HCG len=165
+0:275  0:000   - [05]: SSDT  PtidDevc len=13359
+0:275  0:000   - [06]: SSDT  NvdTabl len=7379
+0:275  0:000   - [07]: SSDT  Cpu0Ist len=1337
+0:275  0:000   - [08]: SSDT  CpuSsdt len=2932
+0:275  0:000   - [09]: MCFG  A M I len=60
+0:275  0:000   - [10]: HPET  A M I len=56
+0:275  0:000   - [11]: SSDT  SataTabl len=877
+0:275  0:000   - [12]: SSDT  SaSsdt  len=23389
+0:275  0:000   - [13]: UEFI  A M I len=66
+0:275  0:000   - [14]: DMAR  BDW  len=128
+0:275  0:000   - [15]: BGRT  A M I len=56
+0:275  0:000  Calibrated TSC frequency =3990751374 =3990MHz
+0:275  0:000  === [ GetUserSettings ] ===================================
+0:275  0:000  Injected EFIString of length 2887
+0:275  0:000  USB FixOwnership: yes
+0:275  0:000   - final DSDT Fix mask=00000000
+0:275  0:000  ChassisType: 0x8
+0:275  0:000  CpuFreq: 4000MHz
+0:277  0:002  === [ ScanVolumes ] =======================================
+0:277  0:000  Found 7 volumes with blockIO
+0:277  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+0:278  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)
+0:278  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,56B62A13-2B8B-4485-80E8-72D78D9FAEB5,0x1000,0x805000)
+0:279  0:000          Result of bootcode detection: bootable Windows (win)
+0:493  0:214  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,FFC93B0F-FCD5-4413-A849-102A819503F9,0x806000,0x24C28800)
+0:494  0:000          Result of bootcode detection: bootable Windows (vista,win)
+0:494  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,C6358DEC-D826-4E7C-9991-589CF92CF794,0x28,0x64000)
+0:494  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:499  0:004          This is SelfVolume !!
+0:499  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)
+0:500  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,363680A3-FCD3-4ADA-A7A7-7113A2261E2A,0x1DBBD368,0x135F20)
+0:500  0:000  === [ InitTheme ] =========================================
+0:502  0:001  Using theme 'black_green' (EFI\CLOVER\themes\black_green)
+0:502  0:000  OS main and drive as badge
+0:503  0:001  Loading font from ThemeDir: Success
+0:503  0:000  Choosing theme black_green
+0:503  0:000  after NVRAM boot-args=-v dart=0 -f
+0:503  0:000  === [ Dump SMC keys from NVRAM ] ==========================
+0:503  0:000  found AppleSMC protocol
+0:516  0:012  === [ ScanLoader ] ========================================
+0:516  0:000  - [02]: 'EFI4G'
+0:516  0:000  - [03]: 'WIN'
+0:516  0:000  - [04]: 'EFI'
+0:525  0:008          AddLoaderEntry for Volume Name=EFI
+0:543  0:018  - [05]: 'MACOS'
+0:551  0:007          AddLoaderEntry for Volume Name=MACOS
+0:554  0:002      Check if volume Is Hibernated:
+0:554  0:000      Check sleep image 'by signature':
+0:569  0:014      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+0:569  0:000      using default sleep image name = \private\var\vm\sleepimage
+0:573  0:004      no valid sleep image offset was found
+0:573  0:000       sleepimage offset could not be acquired
+0:573  0:000      hibernated: no - sign
+0:574  0:000          [!] Icon 17 (icons\vol_internal_hfs.icns) not found (path: EFI\CLOVER\themes\black_green)
+0:576  0:001  - [06]: 'Recovery HD'
+0:577  0:001          AddLoaderEntry for Volume Name=Recovery HD
+0:579  0:002  Scanning legacy ...
+0:579  0:000   2: 'EFI4G' (win) add legacy
+0:580  0:000   added 'Boot Windows from EFI4G' OSType=2 Icon=win
+0:580  0:000   3: 'WIN' (vista,win) add legacy
+0:581  0:000   added 'Boot Windows from WIN' OSType=2 Icon=vista,win
+0:581  0:000  === [ AddCustomTool ] =====================================
+0:585  0:004  found tool \EFI\CLOVER\tools\Shell64U.efi
+0:585  0:000  Checking EFI partition Volume 4 for Clover
+0:585  0:000   Found Clover
+0:588  0:003  === [ GetEfiBootDeviceFromNvram ] =========================
+0:588  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)
+0:588  0:000    - Volume: 'PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)'
+0:588  0:000    - LoaderPath: '<null string>'
+0:588  0:000    - Guid = DEF08871-A833-4400-9DBF-B4D116BE68A6
+0:588  0:000  === [ FindStartupDiskVolume ] =============================
+0:588  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)
+0:588  0:000     - searching for that partition
+0:588  0:000      - found entry 1. 'Boot macOS from MACOS', Volume 'MACOS'
+0:588  0:000  Boot redirected to Entry 1. 'Boot macOS from MACOS'
+0:588  0:000  DefaultIndex=1 and MainMenu.EntryCount=11
+0:750  0:162  GUI ready
+13:191  12:441  ReinitSelfLib after theme change
+13:191  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,C6358DEC-D826-4E7C-9991-589CF92CF794,0x28,0x64000)
+13:191  0:000  === [ ScanVolumes ] =======================================
+13:191  0:000  Found 7 volumes with blockIO
+13:191  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+13:192  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)
+13:192  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,56B62A13-2B8B-4485-80E8-72D78D9FAEB5,0x1000,0x805000)
+13:193  0:000          Result of bootcode detection: bootable Windows (win)
+13:193  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,FFC93B0F-FCD5-4413-A849-102A819503F9,0x806000,0x24C28800)
+13:194  0:000          Result of bootcode detection: bootable Windows (vista,win)
+13:194  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,C6358DEC-D826-4E7C-9991-589CF92CF794,0x28,0x64000)
+13:194  0:000          Result of bootcode detection: bootable unknown (legacy)
+13:194  0:000          This is SelfVolume !!
+13:194  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)
+13:195  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,363680A3-FCD3-4ADA-A7A7-7113A2261E2A,0x1DBBD368,0x135F20)
+13:195  0:000  Choosing theme black_green
+13:195  0:000  after NVRAM boot-args=-v dart=0 -f
+13:195  0:000  === [ ScanLoader ] ========================================
+13:195  0:000  - [02]: 'EFI4G'
+13:195  0:000  - [03]: 'WIN'
+13:195  0:000  - [04]: 'EFI'
+13:215  0:020          AddLoaderEntry for Volume Name=EFI
+13:217  0:001  - [05]: 'MACOS'
+13:218  0:001          AddLoaderEntry for Volume Name=MACOS
+13:220  0:002      Check if volume Is Hibernated:
+13:220  0:000      Check sleep image 'by signature':
+13:235  0:014      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+13:235  0:000      using default sleep image name = \private\var\vm\sleepimage
+13:240  0:004      no valid sleep image offset was found
+13:240  0:000       sleepimage offset could not be acquired
+13:240  0:000      hibernated: no - sign
+13:241  0:000  - [06]: 'Recovery HD'
+13:241  0:000          AddLoaderEntry for Volume Name=Recovery HD
+13:242  0:000  Scanning legacy ...
+13:242  0:000   2: 'EFI4G' (win) add legacy
+13:243  0:000   added 'Boot Windows from EFI4G' OSType=2 Icon=win
+13:243  0:000   3: 'WIN' (vista,win) add legacy
+13:243  0:000   added 'Boot Windows from WIN' OSType=2 Icon=vista,win
+13:243  0:000  === [ AddCustomTool ] =====================================
+13:249  0:005  found tool \EFI\CLOVER\tools\Shell64U.efi
+13:249  0:000  Checking EFI partition Volume 4 for Clover
+13:249  0:000   Found Clover
+13:249  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+13:249  0:000  === [ FindStartupDiskVolume ] =============================
+13:249  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)
+13:249  0:000     - searching for that partition
+13:249  0:000      - found entry 1. 'Boot macOS from MACOS', Volume 'MACOS'
+13:249  0:000  Boot redirected to Entry 1. 'Boot macOS from MACOS'
+13:249  0:000  DefaultIndex=1 and MainMenu.EntryCount=11
+14:463  1:213  ReinitSelfLib after theme change
+14:463  0:000  reinit: self device path=PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,C6358DEC-D826-4E7C-9991-589CF92CF794,0x28,0x64000)
+14:463  0:000  === [ ScanVolumes ] =======================================
+14:463  0:000  Found 7 volumes with blockIO
+14:463  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)
+14:464  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)
+14:464  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,56B62A13-2B8B-4485-80E8-72D78D9FAEB5,0x1000,0x805000)
+14:465  0:000          Result of bootcode detection: bootable Windows (win)
+14:465  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,FFC93B0F-FCD5-4413-A849-102A819503F9,0x806000,0x24C28800)
+14:465  0:000          Result of bootcode detection: bootable Windows (vista,win)
+14:465  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(1,GPT,C6358DEC-D826-4E7C-9991-589CF92CF794,0x28,0x64000)
+14:466  0:000          Result of bootcode detection: bootable unknown (legacy)
+14:466  0:000          This is SelfVolume !!
+14:466  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)
+14:466  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(3,GPT,363680A3-FCD3-4ADA-A7A7-7113A2261E2A,0x1DBBD368,0x135F20)
+14:467  0:000  Choosing theme black_green
+14:467  0:000  after NVRAM boot-args=-v dart=0 -f
+14:467  0:000  === [ ScanLoader ] ========================================
+14:467  0:000  - [02]: 'EFI4G'
+14:467  0:000  - [03]: 'WIN'
+14:467  0:000  - [04]: 'EFI'
+14:476  0:008          AddLoaderEntry for Volume Name=EFI
+14:477  0:000  - [05]: 'MACOS'
+14:478  0:001          AddLoaderEntry for Volume Name=MACOS
+14:480  0:002      Check if volume Is Hibernated:
+14:480  0:000      Check sleep image 'by signature':
+14:495  0:014      read prefs \Library\Preferences\com.apple.PowerManagement.plist status=Success
+14:495  0:000      using default sleep image name = \private\var\vm\sleepimage
+14:500  0:004      no valid sleep image offset was found
+14:500  0:000       sleepimage offset could not be acquired
+14:500  0:000      hibernated: no - sign
+14:506  0:005  - [06]: 'Recovery HD'
+14:506  0:000          AddLoaderEntry for Volume Name=Recovery HD
+14:506  0:000  Scanning legacy ...
+14:506  0:000   2: 'EFI4G' (win) add legacy
+14:507  0:000   added 'Boot Windows from EFI4G' OSType=2 Icon=win
+14:507  0:000   3: 'WIN' (vista,win) add legacy
+14:508  0:000   added 'Boot Windows from WIN' OSType=2 Icon=vista,win
+14:508  0:000  === [ AddCustomTool ] =====================================
+14:508  0:000  found tool \EFI\CLOVER\tools\Shell64U.efi
+14:508  0:000  Checking EFI partition Volume 4 for Clover
+14:508  0:000   Found Clover
+14:508  0:000  === [ GetEfiBootDeviceFromNvram ] =========================
+14:508  0:000  === [ FindStartupDiskVolume ] =============================
+14:508  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x1F,0x2)\Sata(0x1,0xFFFF,0x0)\HD(2,GPT,DEF08871-A833-4400-9DBF-B4D116BE68A6,0x64028,0x1DB59340)
+14:508  0:000     - searching for that partition
+14:508  0:000      - found entry 1. 'Boot macOS from MACOS', Volume 'MACOS'
+14:508  0:000  Boot redirected to Entry 1. 'Boot macOS from MACOS'
+14:508  0:000  DefaultIndex=1 and MainMenu.EntryCount=11
+25:599  11:091  Boot option Boot0000 not found
+25:599  0:000  === [ StartLoader ] =======================================
+25:599  0:000  Finally: Bus=99768kHz CPU=4000MHz
+25:599  0:000  Loading bootmgfw.efi  status=Success
+25:619  0:019  Closing events for Windows
+25:619  0:000  OtherOS: Found Acpi 2.0 RSDP 0xDECA9000
+25:619  0:000  RSDT at DECA9028
+25:619  0:000  XSDT at DECA9090
+25:619  0:000  FADT pointer = DECBA950
+25:622  0:003  SetStartupDiskVolume:
+25:622  0:000    * Volume: 'EFI'
+25:622  0:000    * LoaderPath: '\EFI\microsoft\Boot\bootmgfw.efi'
+25:622  0:000    * DevPath: EFI
+25:622  0:000    * GUID = C6358DEC-D826-4E7C-9991-589CF92CF794
+25:629  0:007    * efi-boot-device: <array><dict><key>IOMatch</key><dict><key>IOProviderClass</key><string>IOMedia</string><key>IOPropertyMatch</key><dict><key>UUID</key><string>C6358DEC-D826-4E7C-9991-589CF92CF794</string></dict></dict></dict></array>
+25:640  0:010  Closing log
